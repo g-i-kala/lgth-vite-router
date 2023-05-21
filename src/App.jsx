@@ -7,9 +7,9 @@ import {AboutMe, AboutMeDetails, Articles, Brands, Coaching, CoachingDetails, Co
 
 const App = () => (
     <BrowserRouter>
-      <div className='bg-color03 w-full overflow-hidden flex flex-col min-h-screen'>
+      <div className='w-full overflow-hidden flex flex-col min-h-screen'>
           <div className='grow'>
-            <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+            <div className={`bg-color03 ${styles.paddingX} ${styles.flexCenter}`}>
               <div className={`${styles.boxWidth}`}>
               <Navbar/>
               </div>
@@ -20,6 +20,7 @@ const App = () => (
                     {/* <Route path='/' element={ <Navbar />} >  */}
                       <Route path='/' element={<Coaching />} />
                       <Route path='/coaching' element={<Coaching />} />
+                      <Route path='/articles' element={<Articles />} />
                       <Route path='/homework' element={<Homework />} />
                       <Route path='/aboutme' element={<AboutMe />} />
                       <Route path="*" element={<NoPage />} />

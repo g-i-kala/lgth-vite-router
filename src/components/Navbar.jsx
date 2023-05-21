@@ -36,9 +36,9 @@ const Navbar = () => {
                         <li
                           key={nav.id}
                           className={`font-titillium cursor-pointer text-color01 text-lg font-bold tracking-wider ${index===navLinks.length-1 ? 'mb-0' : 'mb-2'} hover:text-color02 active:text-color05` }>
-                            <a href={`#${nav.id}`}>
+                            <NavLink to={`#${nav.id}`}>
                               {nav.title}
-                            </a>  
+                            </NavLink>  
                         </li>
                       ))}
                     </ul>

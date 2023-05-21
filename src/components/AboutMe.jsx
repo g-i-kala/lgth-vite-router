@@ -9,7 +9,7 @@ const AboutMe = () => {
   const [aboutMe, ikoReviews] = itemIds.map(itemId => about_me.find(item => item.id === itemId));
 
   return (
-    <div id='aboutme'>
+    <section id='aboutme' className={`${styles.paddingY}`}>
       <h1 className={styles.heading1}>{aboutMe.heading}</h1>
       <AboutMeDetails id='content'/>
       <Feedback/>
@@ -17,7 +17,7 @@ const AboutMe = () => {
         {ikoReviews.txt}
         <a href={ikoReviews.link} target="_blank" rel="noopener noreferrer" className='text-color01'>{ikoReviews.link_text}.</a> 
       </p>
-    </div>
+    </section>
   )
 }
 
