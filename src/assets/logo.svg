@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="62.48mm"
+   height="62.48mm"
+   viewBox="0 0 62.48 62.48"
+   version="1.1"
+   id="svg1197"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   sodipodi:docname="logo_background.svg"
+   inkscape:export-filename="/Volumes/data/graphic/kalafonia_logo/exports_22/logo_background_S_22.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
+  <defs
+     id="defs1191">
+    <linearGradient
+       id="linearGradient838"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop836" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.3982364"
+     inkscape:cx="135.96574"
+     inkscape:cy="80.29118"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1280"
+     inkscape:window-height="756"
+     inkscape:window-x="19"
+     inkscape:window-y="8"
+     inkscape:window-maximized="0"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:pagecheckerboard="true"
+     fit-margin-top="1"
+     fit-margin-left="1"
+     fit-margin-right="1"
+     fit-margin-bottom="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2342"
+       originx="-117.50308"
+       originy="-71.78851" />
+    <sodipodi:guide
+       position="30.663588,49.91982"
+       orientation="1,0"
+       id="guide851"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-22.253079,34.04482"
+       orientation="0,1"
+       id="guide853"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata1194">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-117.50307,-162.7315)">
+    <circle
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.31582251;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path2712"
+       cx="148.74307"
+       cy="193.9715"
+       r="30.082088" />
+    <g
+       id="g2720"
+       transform="matrix(0.288,0,0,0.288,116.6375,158.10938)">
+      <g
+         style="stroke:#ffffff;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="g1433-1"
+         transform="translate(5.27107,-1.6255287)">
+        <path
+           class="fil0 str2"
+           d="M 106.06312,225.14336 C 59.890429,225.47904 21.860235,187.99759 21.522898,141.58446 21.1873,95.411797 58.668667,57.381601 104.84139,57.046006 c 0.48095,-0.0032 0.72143,-0.0057 1.20238,-0.0089 z"
+           id="path224-8"
+           inkscape:connector-curvature="0"
+           style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <path
+           class="fil0 str2"
+           d="M 105.94959,225.24336 C 68.430618,225.04936 37.413507,194.50305 37.124768,156.7474 36.834142,118.75126 67.857692,87.249474 105.85393,86.958862 Z"
+           id="path226-2"
+           inkscape:connector-curvature="0"
+           style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <circle
+           class="fil0 str2"
+           cx="106.0851"
+           cy="126.41356"
+           id="circle228-6"
+           style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
+           r="98.840981"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+      </g>
+      <text
+         transform="rotate(-20)"
+         id="text1911-0"
+         y="200.85664"
+         x="-8.091711"
+         style="font-style:normal;font-weight:normal;font-size:30.45029068px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.91306067;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           id="tspan1489"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.45029068px;font-family:'Sisterhood Personal Use';-inkscape-font-specification:'Sisterhood Personal Use, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.91306067;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           y="200.85664"
+           x="-8.091711"
+           sodipodi:role="line">let go to have it</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "titillium_regular";
+    src: url("./assets/fonts/Titillium_Web/TitilliumWeb-Regular.ttf");
+  }
+
+@font-face {
+  font-family: "poppins_regular";
+  src: url("./assets/fonts/Poppins/Poppins-Regular.ttf");
+}  
+
+@font-face {
+  font-family: "poppins_semibold";
+  src: url("./assets/fonts/Poppins/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "poppins_bold";
+  src: url("./assets/fonts/Poppins/Poppins-Bold.ttf");
+}
+
+body {
+ font-family: poppins_regular;
+}
+
+/* @media(min-width:620px) { */
+  .bg-primary-gradient {
+    background: linear-gradient(
+      155deg,
+      #ffffff 25%,
+      #B4DFDF 50%,
+      #6DDADA 100%
+    );
+    opacity: 0.95;
+  }
+/* } */
