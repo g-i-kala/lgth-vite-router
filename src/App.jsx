@@ -1,43 +1,42 @@
 import React from 'react';
-import "./App.css";
-import styles from './styles';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+//imports
 
-import {AboutMe, AboutMeDetails, Articles, Brands, Coaching, CoachingDetails, CoachingOption, Footer, Homework, Navbar, Socials, Feedback, ScrollToTopButton, NoPage} from './components';
+import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom';
+import { NoPage, RootLayout, RSLoading} from './components';
+import { navLinks } from './constants';
+
+//styles
+import "./App.css";
+
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path='/' element={<RootLayout/>}>
+          {navLinks.map((nav)=> {
+            const componentPath = `./components/${nav.id}`;
+            const LazyComponent = React.lazy(()=>import(componentPath));
+
+              return (
+              <Route key = {nav.id}
+              path = {`/${nav.id}`}
+              element = {<LazyComponent/>}  
+              />
+            )
+          })}
+          
+          {/* <Route path='/coaching' element={<Coaching />} />
+          <Route path='/articles' element={<Articles />} />
+          <Route path='/homework' element={<Homework />} />
+          <Route path='/aboutme' element={<AboutMe />} /> */}
+          <Route path="*" element={<NoPage />} />
+    </Route>
+  )
+)
 
 const App = () => (
-    <BrowserRouter>
-      <div className='w-full overflow-hidden flex flex-col min-h-screen'>
-          <div className='grow'>
-            <div className={`bg-color03 ${styles.paddingX} ${styles.flexCenter}`}>
-              <div className={`${styles.boxWidth}`}>
-              <Navbar/>
-              </div>
-            </div>
-            <div className={`bg-color05 ${styles.paddingX} ${styles.flexStart}`}>
-              <div className={`${styles.boxWidth}`}>
-                <Routes>
-                    {/* <Route path='/' element={ <Navbar />} >  */}
-                      <Route path='/' element={<Coaching />} />
-                      <Route path='/coaching' element={<Coaching />} />
-                      <Route path='/articles' element={<Articles />} />
-                      <Route path='/homework' element={<Homework />} />
-                      <Route path='/aboutme' element={<AboutMe />} />
-                      <Route path="*" element={<NoPage />} />
-                    {/* </Route>  */}
-                </Routes>
-                <ScrollToTopButton/>
-              </div>
-            </div>
-          </div>
-          <div className={`bg-color05 ${styles.flexCenter}`}>
-            <div className={`${styles.boxWidth}`}>
-            <Footer/>
-            </div>
-          </div>
-      
-      </div>
-    </BrowserRouter>
+  <React.Suspense fallback={<RSLoading/>}>
+    <RouterProvider router={router} />
+  </React.Suspense>
   );
 
 export default App

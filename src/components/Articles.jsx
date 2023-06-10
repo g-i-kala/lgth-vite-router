@@ -6,7 +6,7 @@ const Articles = () => {
   const [articles, setArticles] = useState([]);
 
   useEffect(()=>{
-    fetch('https://letgotohaveit.com/wp-json/wp/v2/posts?_fields=title,link&per_page=5')
+    fetch('https://letgotohaveit.com/wp-json/wp/v2/posts?_fields=title,link&per_page=20')
     .then(response => response.json())
     .then(data => {
       const articleData = data.map(article => 
@@ -24,13 +24,13 @@ const Articles = () => {
   
   return (
     <section id='articles' className={`${styles.paddingY}`}>
-      {/* post titles with links */}
-      {/* <div>
-        <p className={`${styles.heading2}`}>Recent articles</p>
+     
+      <div>
+        <p className={`${styles.heading1}`}>Recent articles</p>
         <ul>
           {articles.map((article, index) => {
             return (
-              <li key={index}>
+              <li key={index} className="my-1 hover:text-color02">
                 <a href={article.link}>
                   {article.title}
                 </a>
@@ -38,14 +38,14 @@ const Articles = () => {
             );
           })}
         </ul>
-      </div> */}
-      <iframe
+      </div>
+      {/* <iframe
         src="https://letgotohaveit.com/index.php/blog/"
         width='100%'
         height='600px'
       >
 
-      </iframe>
+      </iframe> */}
     </section>
   );
 }

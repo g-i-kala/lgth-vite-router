@@ -16,6 +16,8 @@ import ImageSlider from './ImageSlider';
 import ScrollToTopButton from './ScrollToTopButton';
 import Copywright from './Copywright';
 import NoPage from './NoPage';
+import RootLayout from './RootLayout';
+import RSLoading from './RSLoading';
 
 export {
 AboutMe,
@@ -36,4 +38,6 @@ ImageSlider,
 ScrollToTopButton,
 Copywright,
 NoPage,
+RootLayout,
+RSLoading
 }

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link, Outlet, NavLink } from 'react-router-dom';
+import { Outlet, NavLink } from 'react-router-dom';
 import { lgth_navbar, menu, close } from '../assets';
 import { navLinks } from '../constants';
 
@@ -10,7 +10,9 @@ const Navbar = () => {
     return (
       <>
       <nav className='w-full flex flex-col xs:flex-row py-2 justify-between items-center navbar'>
-        <img src={lgth_navbar} alt='lgth logo' className='h-12'/>
+        <NavLink to={'/'}>
+          <img src={lgth_navbar} alt='lgth logo' className='h-12'/>
+        </NavLink>
         <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
           {navLinks.map((nav,index)=> (
             <li
@@ -45,7 +47,6 @@ const Navbar = () => {
             </div>
         </div>
       </nav>
-      <Outlet />
       </>
   )
 }
