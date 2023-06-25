@@ -18,6 +18,7 @@ import Copywright from './Copywright';
 import NoPage from './NoPage';
 import RootLayout from './RootLayout';
 import RSLoading from './RSLoading';
+import SinglePost from './SinglePost';
 
 export {
 AboutMe,
@@ -39,5 +40,6 @@ ScrollToTopButton,
 Copywright,
 NoPage,
 RootLayout,
-RSLoading
+RSLoading,
+SinglePost
 }
